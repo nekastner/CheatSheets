@@ -1,6 +1,6 @@
 import socket
 
-socket_path: str = './uds_socket'
+socket_path: str = "./uds_socket"
 
 try:
     with socket.socket(socket.AF_UNIX, socket.SOCK_STREAM) as client:
