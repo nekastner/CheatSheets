@@ -1,10 +1,11 @@
 import unittest
-
 import sys
+
 sys.path.insert(0, "../src")
 from src import calculator
 
 class TestAddFunction(unittest.TestCase):
+
     def test_add_positive_numbers(self):
         self.assertEqual(calculator.add(1, 2), 3)
 
